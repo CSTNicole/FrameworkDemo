@@ -5,7 +5,7 @@
 //  Created by Mary Nicolette Tan on 2022-07-18.
 //
 
-//import XCTest
+import XCTest
 @testable import FrameworkDemo
 
 class FrameworkDemoTests: XCTestCase {
