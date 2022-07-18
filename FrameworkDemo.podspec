@@ -19,6 +19,6 @@ Pod::Spec.new do |spec|
     # path of the files
   spec.source_files  = "FrameworkDemo/**/*.{Swift}"
   
-  spec.swift_version = "4.2"
+  spec.swift_version = "15.5"
 
 end
