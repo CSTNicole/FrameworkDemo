@@ -13,12 +13,13 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   
   spec.author       = { "CSTNicole" => "000431652@student.vcc.ca" }
+  spec.platform     = ios: "15.5"
 
   spec.source       = { :git => "https://github.com/CSTNicole/FrameworkDemo.git", :tag => "#{spec.version}" }
 
     # path of the files
   spec.source_files  = "FrameworkDemo/**/*.{Swift}"
   
-  spec.swift_version = "15.5"
+  spec.swift_version = "4.2"
 
 end
