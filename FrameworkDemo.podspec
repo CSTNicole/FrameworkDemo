@@ -1,4 +1,3 @@
-
 Pod::Spec.new do |spec|
 
   spec.name         = "FrameworkDemo"
@@ -10,8 +9,8 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.author       = { "CSTNicole" => "000431652@student.vcc.ca" }
   spec.platform     = :ios, "15.5"
-  spec.source       = { :git => "https://github.com/CSTNicole/FrameworkDemo.git", :tag => "#{spec.version}" }
-  spec.source_files  = "FrameworkDemo/**/*.{Swift}"
+  spec.source       = { :git => "https://github.com/CSTNicole/FrameworkDemo.git", :tag => spec.version.to_s }
+  spec.source_files  = "FrameworkDemo/**/*.{swift}"
   spec.swift_version = "4.2"
 
 end
